@@ -1,0 +1,217 @@
+/* Services CSS */
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 2px solid #821921;
+    padding: 12px;
+    text-align: left;
+    font-family: 'Montserrat', monospace;
+    color: #646559;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Store CSS */
+
+a.store-ig {
+    color: #F5F5F5;
+}
+
+/* FAQ CSS */
+.faq {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #821921;
+    font-family: 'Montserrat', monospace;
+    font-size: 1.5em;
+}
+
+.answer {
+    margin-bottom: 10px;
+    color: #646559;
+    font-family: 'Montserrat', monospace;
+    font-size: 1.2em;
+}
+
+@media (max-width: 1199px) {
+
+    .faq{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+}
+
+h2.instagram {
+    color: #821921;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'IBM Plex Serif', 'Courier New', Courier;
+}
+
+.IG {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* About CSS */
+
+.about-title {
+    color: #821921;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'IBM Plex Serif', 'Courier New', Courier;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.about-text {
+    max-width: 60%;
+    padding-right: 20px;
+    font-size: 1.2em;
+    font-family: 'Montserrat', monospace;
+    color: #646559;
+}
+
+.about-image {
+    max-width: 50%;
+    filter: grayscale(100%);
+}
+
+.about-image > img {
+    width: 100%
+}
+
+.about-boxes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #A79877;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+
+}
+
+.about-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #A79877;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.box-image {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+}
+
+h2.aboutdetails {
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'IBM Plex Serif', 'Courier New', Courier;
+}
+
+p.aboutdetails {
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Montserrat', monospace;
+}
+
+@media (max-width: 1199px) {
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-text, .about-image {
+        max-width: 70%;
+    }
+
+    .about-boxes {
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .about-box {
+        margin: 10px 0;
+    }
+}
+
+/* Contact CSS */
+
+p.contactdetails {
+    color: #821921;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Montserrat', monospace;
+}
+
+.contact-boxes {
+    display: flex;
+    justify-content: center;
+    background-color: #A79877;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+
+}
+
+.contact-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #A79877;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+@media (max-width: 1199px) {
+    .contact-boxes {
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .contact-box {
+        margin: 10px 0;
+    }
+}
+
+/* Repair CSS */
+
+iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+    border: none; /* Remove iframe border */
+}
