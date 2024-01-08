@@ -468,22 +468,22 @@
         gap: 10px;
         margin-right: 0;
         text-align: center;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .cta-button a {
-        padding: 30px;
-        font-size: 2em;
+        padding: 20px;
+        font-size: 1.5em;
     }
 
     .cta-button a:hover {
-        padding: 30px;
-        font-size: 2em;
+        padding: 20px;
+        font-size: 1.5em;
     }
 
     .cta-button a:active {
-        padding: 30px;
-        font-size: 2em;
+        padding: 20px;
+        font-size: 1.5em;
     }
 
     .value {
@@ -543,11 +543,13 @@
     }
 
     .topnav ul {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
         gap: 10px;
         margin-right: 0;
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .cta-button a {
@@ -622,4 +624,5 @@
     .bottomlinkmenu, .bottomnav, .subscribe-bottom, .cta-bottom {
         flex-direction: column;
     }
+
 }
